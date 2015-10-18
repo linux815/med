@@ -1,0 +1,587 @@
+.center {
+	text-align:center;
+}
+
+ol {
+	padding:10px;
+	margin:0;
+}
+
+caption {
+	padding:4px;
+}
+
+/* Common */
+
+#content {
+	margin-right:auto;
+	margin-left:auto;
+	width:100%;
+}
+
+.login {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.login > div {
+	width:360px !important;
+}
+
+#content {
+	width:99%;
+	position:absolute;
+	zoom:1;
+}
+
+.date td a {
+	display:inline-block;
+	padding:3px 8px;
+}
+
+.date th, .date td {
+	text-align:center;
+	padding:3px;
+}
+
+/* Box */
+
+.box {
+	font-size:13px;
+	margin:0 0 10px 0;
+	position:relative;
+	border:1px solid;
+}
+
+.box h2, .box p, .box table {
+	margin:0;
+}
+
+.box h2 {
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	padding:2px 10px;
+	cursor:move;
+}
+
+.utils a {
+	position:absolute;
+	top:5px;
+	right:10px;
+	border:1px solid;
+	padding:4px 8px;
+}
+
+.box p {
+	padding:10px;
+}
+
+/* Typography */
+
+label, #navigation, .error, .success, input[type="submit"], input[type="reset"]  {
+	font-weight:bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	border-bottom:1px solid;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+a.edit, a.delete {
+	padding-left:25px;
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+a {
+	padding:4px;
+}
+
+/* Table styling */
+
+table {
+	width:100.3%;
+}
+
+th, td {
+	padding:7px 15px;
+	text-align:left;
+}
+
+/* Header */
+
+#head {
+	-moz-border-radius-topright:10px;
+	border:0;
+	margin:0px auto 0 auto;
+	padding:5px 30px;
+	width:95%;
+}
+
+/* Nagivation */
+
+#navigation {
+	-moz-border-radius-bottomleft:10px;
+	margin:0 auto 0px auto;
+	padding:10px 30px;
+	width:95%;
+}
+
+#navigation > li {
+	display:inline;
+	margin:0
+}
+
+#navigation > li > a, #navigation > li > span {
+	display:inline-block;
+	padding:5px 10px;
+	text-decoration:none;
+}
+
+/* Content */
+
+#content {
+	padding:5px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+}
+
+#foot {
+	padding:5px 30px;
+	width:96%;
+	margin: 0px auto;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+}
+
+.curved, #navigation a, #navigation span, .error, .success, .box, .utils a {
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+}
+
+.curved-alt, input, textarea, select, .box, .date td a, .utils a  {
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-top-left-radius:5px;
+}
+
+/* Forms */
+
+label {
+	display:block;
+	font-size:17px;
+	margin:0 0 5px;
+	position:relative;
+}
+
+small {
+	font-size:12px;
+	font-weight:normal;
+	padding-left:10px;
+}
+
+input, textarea, select{
+	border:1px solid;
+	font-family:inherit;
+	font-size:inherit;
+	padding:4px;
+}
+
+select {
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+input[type="submit"], input[type="reset"] {
+	cursor:pointer;
+	width:auto !important;
+}
+
+/* Error and Success messages */
+.error, .success {
+	padding:4px 8px;
+}
+
+#validEmail
+    {
+    margin-top: 4px;
+    margin-left: 9px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
+
+/* Pagination */
+.pagination {
+	text-align:left;
+}
+.pagination a, .pagination span {
+	display:inline-block;
+	margin:0 2px;
+	padding:2px 6px;
+}
+.bordered {
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc; 
+    -moz-box-shadow: 0 1px 1px #ccc; 
+    box-shadow: 0 1px 1px #ccc;         
+}
+
+.bordered tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;     
+}    
+    
+.bordered td, .bordered th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;    
+}
+
+.bordered th {
+
+
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+}
+
+.bordered td:first-child, .bordered th:first-child {
+    border-left: none;
+}
+
+.bordered th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+.bordered th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+.bordered tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+.bordered tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+
+.tip {
+  display: inline-block;
+  position: relative;
+}
+/*Стиль для кнопки, если она есть*/
+.tip em,
+.linktip em {
+  text-align:center;
+
+
+  font: normal bold 12px Arial;
+  text-decoration: none;
+  cursor:pointer;
+  padding: 0 4px;
+}
+/*Стиль для изображения в подсказке*/
+.tip>span>img {
+  max-width: auto;
+  max-height: auto;
+  margin: 3px;
+  float: left;
+}
+/*Стиль для кнопки закрытия подсказки(кристик)*/
+.answer>b,
+.answer-left>b {
+  position:absolute;
+  font: normal bold 14px Comic Sans MS;
+  color:#999;
+  cursor:pointer;
+  padding: 4px;
+}
+.answer>b {
+  top:0;
+  right:0;
+}
+.answer-left>b {
+  top:0;
+  left:0;
+}
+.answer>b:hover,
+.answer-left>b:hover {color:#000;} /*при наведении*/
+
+/*Стиль для блока подсказки*/
+.answer, 
+.answer-left { 
+  display:none; /*скрываем*/
+  position:absolute; /*позиционируем абсолютно*/
+  z-index:9999; /*отображаем поверх всех элементов на странице*/
+  background: #EDEDED; /*цвет фона*/
+  border-radius: 3px; 
+  border: 1px solid #ccc;
+  color: #000; /*цвет текста*/
+  font: normal 500 14px Trebuchet MS;
+  text-align:left;
+  text-shadow: 0 1px 2px #fff, 0 0 10px #E0F1FF; /*тень текста*/
+  text-decoration: none;
+  opacity: 1; /*прозрачность*/
+  cursor:default;
+  margin-left: 110px;
+  margin-top:-37px; /*смещение вверх*/
+  width: 700px; /*ширина !значение*/
+  min-height: 20px; /*минимальная высота (если текста мало)*/
+  max-height: auto; /*высота в зависимости от количества текста*/
+  white-space: normal; /*переносы слов*/
+}
+.answer {
+  box-shadow: 5px 5px 0.5em -0.1em rgba(0,0,6,0.5); /*тень справа*/
+
+  padding: 5px 20px 7px 7px; /*отступы внутри*/
+}
+.answer-left {
+  box-shadow: -5px 5px 0.5em -0.1em rgba(0,0,6,0.5); /*тень слева*/
+  margin-left: 50px; /*!смещение*/
+  padding: 5px 7px 7px 20px;
+}
+.a-top {
+  bottom: -10px; /*!смещение, положение подсказки вверх */
+}
+/*Стили для уголка*/
+.a-top:before,
+.answer:before, 
+.answer-left:before {
+  content:"";
+  position:absolute;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAQAAACR313BAAAAaElEQVR4XoWQMQ6AMAwDna6wMXTjB/x/7E4i9SV9AwgxuJKDcKfqrlVizInrObwLHLng9sKhgm8nIQV4eWAFJig/EIogUATCTPh7zZUUuqHXOL4m7waglViyvVthNXvaGhNr2jnTLQTenE8VKUp0n4sAAAAASUVORK5CYII=) no-repeat;
+  width: 9px;
+  height: 15px;
+}
+.answer:before {
+  left: -9px;
+  margin-top: 10px;
+  background-position: 0 0;
+}
+.answer-left:before {
+  right: -9px;
+  margin-top: 10px;
+  background-position: -9px 0;
+}
+.a-top:before {
+  bottom: 10px;
+}
+/*Для отображения клик-подсказки без скрипта, только на CSS*/
+.tip>a:focus~span.answer,
+.tip>a:focus~span.answer-left {
+  display:block;
+}
+.tip>a[tabindex="1"]:focus {
+  outline: none;
+}
+.tip>a[tabindex="1"]:focus>em {
+
+}
+
+/*Стиль для кнопки закрытия подсказки(кристик)*/
+.answer2>b,
+.answer2-left>b {
+  position:absolute;
+  font: normal bold 14px Comic Sans MS;
+  color:#999;
+  cursor:pointer;
+  padding: 4px;
+}
+.answer2>b {
+  top:0;
+  right:0;
+}
+.answer2-left>b {
+  top:0;
+  left:0;
+}
+.answer2>b:hover,
+.answer2-left>b:hover {color:#000;} /*при наведении*/
+
+/*Стиль для блока подсказки*/
+.answer2, 
+.answer2-left { 
+  display:none; /*скрываем*/
+  position:absolute; /*позиционируем абсолютно*/
+  z-index:9999; /*отображаем поверх всех элементов на странице*/
+  background: #EDEDED; /*цвет фона*/
+  border-radius: 3px; 
+  border: 1px solid #ccc;
+  color: #000; /*цвет текста*/
+  font: normal 500 14px Trebuchet MS;
+  text-align:left;
+  text-shadow: 0 1px 2px #fff, 0 0 10px #E0F1FF; /*тень текста*/
+  text-decoration: none;
+  opacity: 1; /*прозрачность*/
+  cursor:default;
+  margin-left: 36px;
+  margin-top:-37px; /*смещение вверх*/
+  width: 400px; /*ширина !значение*/
+  min-height: 20px; /*минимальная высота (если текста мало)*/
+  max-height: auto; /*высота в зависимости от количества текста*/
+  white-space: normal; /*переносы слов*/
+}
+.answer2 {
+  box-shadow: 5px 5px 0.5em -0.1em rgba(0,0,6,0.5); /*тень справа*/
+
+  padding: 5px 20px 7px 7px; /*отступы внутри*/
+}
+.answer2-left {
+  box-shadow: -5px 5px 0.5em -0.1em rgba(0,0,6,0.5); /*тень слева*/
+  margin-left: 50px; /*!смещение*/
+  padding: 5px 7px 7px 20px;
+}
+.a-top {
+  bottom: -10px; /*!смещение, положение подсказки вверх */
+}
+/*Стили для уголка*/
+.a-top:before,
+.answer2:before, 
+.answer2-left:before {
+  content:"";
+  position:absolute;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAQAAACR313BAAAAaElEQVR4XoWQMQ6AMAwDna6wMXTjB/x/7E4i9SV9AwgxuJKDcKfqrlVizInrObwLHLng9sKhgm8nIQV4eWAFJig/EIogUATCTPh7zZUUuqHXOL4m7waglViyvVthNXvaGhNr2jnTLQTenE8VKUp0n4sAAAAASUVORK5CYII=) no-repeat;
+  width: 9px;
+  height: 15px;
+}
+.answer2:before {
+  left: -9px;
+  margin-top: 10px;
+  background-position: 0 0;
+}
+.answer2-left:before {
+  right: -9px;
+  margin-top: 10px;
+  background-position: -9px 0;
+}
+.a-top:before {
+  bottom: 10px;
+}
+/*Для отображения клик-подсказки без скрипта, только на CSS*/
+.tip>a:focus~span.answer2,
+.tip>a:focus~span.answer2-left {
+  display:block;
+}
+.tip>a[tabindex="1"]:focus {
+  outline: none;
+}
+.tip>a[tabindex="1"]:focus>em {
+
+}
+
+/*Стиль для кнопки закрытия подсказки(кристик)*/
+.answer3>b,
+.answer3-left>b {
+  position:absolute;
+  font: normal bold 14px Comic Sans MS;
+  color:#999;
+  cursor:pointer;
+  padding: 4px;
+}
+.answer3>b {
+  top:0;
+  right:0;
+}
+.answer3-left>b {
+  top:0;
+  left:0;
+}
+.answer3>b:hover,
+.answer3-left>b:hover {color:#000;} /*при наведении*/
+
+/*Стиль для блока подсказки*/
+.answer3, 
+.answer3-left { 
+  display:none; /*скрываем*/
+  position:absolute; /*позиционируем абсолютно*/
+  z-index:9999; /*отображаем поверх всех элементов на странице*/
+  background: #EDEDED; /*цвет фона*/
+  border-radius: 3px; 
+  border: 1px solid #ccc;
+  color: #000; /*цвет текста*/
+  font: normal 500 14px Trebuchet MS;
+  text-align:left;
+  text-shadow: 0 1px 2px #fff, 0 0 10px #E0F1FF; /*тень текста*/
+  text-decoration: none;
+  opacity: 1; /*прозрачность*/
+  cursor:default;
+  margin-left: 36px;
+  margin-bottom:5px; /*смещение вверх*/
+  width: 400px; /*ширина !значение*/
+  min-height: 20px; /*минимальная высота (если текста мало)*/
+  max-height: auto; /*высота в зависимости от количества текста*/
+  white-space: normal; /*переносы слов*/
+}
+.answer3 {
+  box-shadow: 5px 5px 0.5em -0.1em rgba(0,0,6,0.5); /*тень справа*/
+
+  padding: 5px 20px 7px 7px; /*отступы внутри*/
+}
+.answer3-left {
+  box-shadow: -5px 5px 0.5em -0.1em rgba(0,0,6,0.5); /*тень слева*/
+  margin-left: 50px; /*!смещение*/
+  padding: 5px 7px 7px 20px;
+}
+.a-top {
+  bottom: -10px; /*!смещение, положение подсказки вверх */
+}
+/*Стили для уголка*/
+.a-top:before,
+.answer3:before, 
+.answer3-left:before {
+  content:"";
+  position:absolute;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAQAAACR313BAAAAaElEQVR4XoWQMQ6AMAwDna6wMXTjB/x/7E4i9SV9AwgxuJKDcKfqrlVizInrObwLHLng9sKhgm8nIQV4eWAFJig/EIogUATCTPh7zZUUuqHXOL4m7waglViyvVthNXvaGhNr2jnTLQTenE8VKUp0n4sAAAAASUVORK5CYII=) no-repeat;
+  width: 9px;
+  height: 15px;
+}
+.answer3:before {
+  left: -9px;
+  margin-top: 10px;
+  background-position: 0 0;
+}
+.answer3-left:before {
+  right: -9px;
+  margin-top: 10px;
+  background-position: -9px 0;
+}
+.a-top:before {
+  bottom: 10px;
+}
+/*Для отображения клик-подсказки без скрипта, только на CSS*/
+.tip>a:focus~span.answer3,
+.tip>a:focus~span.answer3-left {
+  display:block;
+}
+.tip>a[tabindex="1"]:focus {
+  outline: none;
+}
+.tip>a[tabindex="1"]:focus>em {
+
+}

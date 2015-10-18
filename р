@@ -1,0 +1,5 @@
+UPDATE `table`
+SET `new_date` = CONCAT(
+SUBSTRING_INDEX( `date_old` , '.', -1 ) , '-',
+SUBSTRING_INDEX( SUBSTRING_INDEX( `date_old` , '.', 2 ) , '.' , -1 ) , '-',
+SUBSTRING_INDEX( `date_old` , '.', 1 ) ) ;
